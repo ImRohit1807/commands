@@ -1,0 +1,9 @@
+git init
+git status
+git add -A
+git commit -m "first commit"
+git remote add origin https://github.com/ImRohit1807/first.git
+git push -u origin master
+git pull origin
+git reset --hard origin/master
+git fetch --all
