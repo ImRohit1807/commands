@@ -9,16 +9,3 @@ git reset --hard origin/master
 git fetch --all
 
 
-
-------------------------------------------
-docker
-sudo docker pull ubuntu
-sudo docker ps -a
-sudo docker images
-sudo docker exec container_id
-sudo docker rmi image_id
-sudo docker run -it ubuntu
-
-------------------------------------------
-
-systemctl status jenkins
